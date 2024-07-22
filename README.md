@@ -28,7 +28,11 @@ The `ShoppingBasket` project is a simulation of a shopping basket system designe
    ```sh
    docker pull mysql:latest
 
-2. **Clone the repository and you are ready to go**:
+2. **Run the docker image**;
+   ```sh
+   docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=yourpassword -p 3306:3306 -d mysql:latest
+
+3. **Clone the repository and you are ready to go**:
     ```sh
     git clone https://github.com/francisco-pinto/ShoppingBasket.git
 
