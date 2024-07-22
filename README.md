@@ -31,4 +31,4 @@ The `ShoppingBasket` project is a simulation of a shopping basket system designe
     ```sh
     git clone https://github.com/francisco-pinto/ShoppingBasket.git
 
-### Happy shopping
+### Happy shopping :D
