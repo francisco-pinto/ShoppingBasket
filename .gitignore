@@ -1,52 +1,174 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+# Compiled source files
 *.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.so
+*.dylib
 *.pdb
+*.db
+*.testresults
+*.app
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Rider project files
+.idea/
+*.sln.iml
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/.idea
+.idea/vcs.xml
+.idea/httpRequests/
+
+# Rider run configurations
+.idea/runConfigurations/
+
+# User-specific files
+*.rsuser
+*.userprefs
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider and VSCode settings
+.vscode/
+.vscode/settings.json
+
+# Rider plugin folder
+.idea/rider/ 
+
+# Rider metadata
+.idea_description/
+
+# Build directory
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/packages/
+.nuget/NuGet.Config
+.nuget/NuGet.exe
+
+# Logs
+*.log
+
+# Build results
+*.publish/
+
+# Coverage results
+*.coverage
+*.coveragexml
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Entity Framework
+*.edmx.sql
+
+# Visual Studio profiler
+*.psess
+*.vsp
+
+# Local history for Visual Studio
+.vs/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# MacOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Unix
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Rider logs
+.idea/workspace.xml
+.idea/workspace*.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/httpRequests/
+.idea/scopes/
+.idea/.idea.*
+.idea/assetWizard.xml
+.idea/dataSources/
+.idea/indexLayout.xml
+.idea/sqlDataSources.xml
+.idea/sqlDataSources/
+.idea/markdown-navigator/
+.idea/goo/
+.idea/runConfigurations/
+.idea/fileTemplates/
+.idea/asset/
+.idea/node_modules/
+.idea/vue/
+.idea/jsLibraryMappings/
+.idea/projectView.xml
+.idea/other.xml
+.idea/misc.xml
+
+# Exclude Rider's cache directories
+.idea/riderCaches/
+.idea/tasks.xml
+
+# Rider folders
+.idea/markdown-navigator/
+
+# Visual Studio specific items
+.vscode/
+.vscode/settings.json
+
+# Exclude .NET Core & ASP.NET related files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Exclude hidden folders and files created by macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# User-specific files
+*.rsuser
+*.userprefs
+*.suo
+*.user
+*.sln.docstates
+
+# Rider files
+.idea
+.idea_modules
+.idea_description
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/libraries
+.idea/vcs.xml
+.idea/httpRequests
+.idea/shelf
+.idea/terminal.xml
+
+# Exclude hidden files
+.*
+!.gitignore
