@@ -1,0 +1,30 @@
+{
+  "runtime": "Net80",
+  "defaultVariables": null,
+  "documentGenerator": {
+    "fromDocument": {
+      "url": "../../../../tests/IntegrationTests/Client/shoppingBasket.yml",
+      "output": null,
+      "newLineBehavior": "Auto"
+    }
+  },
+  "codeGenerators": {
+    "openApiToCSharpClient": {
+      "generateClientClasses": true,
+      "generateClientInterfaces": true,
+      "injectHttpClient": true,
+      "disposeHttpClient": false,
+      "useBaseUrl": false,
+      "generateBaseUrlProperty": false,
+      "generateOptionalParameters": true,
+      "parameterArrayType": "System.Collections.Generic.IReadOnlyList",
+      "responseArrayType": "System.Collections.Generic.IReadOnlyList",
+      "generateOptionalPropertiesAsNullable": true,
+      "generateNullableReferenceTypes": false,
+      "exceptionClass": "ApiException",
+      "className": "ShoppingBasketClient",
+      "namespace": "ShoppingBasket.IntegrationTests.Swagger.V1",
+      "output": "../ShoppingBasketClient.cs"
+    }
+  }
+}
