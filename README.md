@@ -1,7 +1,7 @@
 # ShoppingBasket
 
 ## Overview
-The `ShoppingBasket` project is a simulation of a shopping basket system designed to allow users to add items to their basket and proceed to purchase them. Additionally, it includes endpoints for the admins such as creating products and applying discounts to items. The project is built using C# and follows the Domain-Driven Design (DDD) methodology.
+The `ShoppingBasket` project is a simulation of a shopping basket system designed to allow users to add items to their basket and proceed to purchase them. Additionally, it includes endpoints for the admins such as creating products and applying discounts to items. The project is built using C# (.NET 8) and follows the Domain-Driven Design (DDD) methodology.
 
 ## Features
 ### User Features
